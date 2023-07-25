@@ -2,15 +2,15 @@
 
 /* URL PROJECT */
 
-define ('SITE_URL', 'YOUR_BACKEND_URL_HERE');
+define ('SITE_URL', 'https://academiaportuguesa.tech/backend/');
 
 /* DATABASE CONFIGURATION */
 
 $database = array(
-'host' => 'DATABASE_HOST_HERE',
-'db' => 'DATABASE_NAME_HERE',
-'user' => 'DATABASE_USER_HERE',
-'pass' => 'DATABASE_PASSWORD_HERE'
+'host' => 'localhost', // geralmente, o host é 'localhost'. No entanto, se você tiver uma string de host específica para o seu banco de dados, substitua 'localhost' por essa string.
+'db' => 'u237711990_fitveggie',
+'user' => 'u237711990_fitveggie',
+'pass' => 'N3tf1n1ty' // substitua 'YOUR_DATABASE_PASSWORD' pela sua senha do banco de dados
 );
 
 $email_config = array(
