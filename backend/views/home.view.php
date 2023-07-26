@@ -11,7 +11,7 @@
 
                     <div class="col-12">
                         <div class="section-title">
-                            <h4>Sections</h4>
+                            <h4>Seções</h4>
                         </div>
                     </div>
 
@@ -31,13 +31,13 @@
 
                     <div class="col-12">
                         <div class="section-title">
-                            <h4>Summary</h4>
+                            <h4>Resumo</h4>
                         </div>
                     </div>
 
                     <?php 
                     $elements = array("exercises", "workouts", "posts", "diets");
-                    $headers = array("Exercises", "Workouts", "Posts", "Recipes");
+                    $headers = array("Exercícios", "Treinos", "Publicações", "Receitas");
                     $icons = array("cog", "cog", "cog", "cog");
 
                     for($j=0; $j<count($elements); $j++) { ?>
@@ -48,7 +48,7 @@
                                     <div class="graph-pills graph-home">
                                         <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                             <li class="nav-item">
-                                                <a class="nav-link active active-2" href="../controller/<?php echo $elements[$j]; ?>.php">View All <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
+                                                <a class="nav-link active active-2" href="../controller/<?php echo $elements[$j]; ?>.php">Ver todos <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -69,7 +69,7 @@
 
                                 <script type="text/javascript">
                                   function alertdelete_<?php echo $elements[$j][0].$element[$elements[$j].'_id']; ?>() {
-                                  swal({ title: "Are you sure?", text: "You will not be able to recover this item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Yes, delete it!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_<?php echo $elements[$j]; ?>.php?id=<?php echo $element[$elements[$j].'_id']; ?>" });}
+                                  swal({ title: "Você tem certeza?", text: "Você não poderá recuperar este item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Sim, delete!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_<?php echo $elements[$j]; ?>.php?id=<?php echo $element[$elements[$j].'_id']; ?>" });}
                                 </script>
 
                                 <?php endforeach; ?>
