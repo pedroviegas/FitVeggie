@@ -381,7 +381,7 @@ if (strpos($out, $workout['workout_status']) !== false) {
    <input name="trash" value="Delete" class="btn btn-embossed btn-danger" style="width: 80px;"></a>
     <script type="text/javascript">
    function alertdelete() {
-   swal({ title: "Are you sure?", text: "You will not be able to recover this item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Yes, delete it!", closeOnConfirm: false }, function(){window.location.href = "<?php echo SITE_URL ?>/controller/delete_workout.php?id=<?php echo $workout['workout_id']; ?>" });}
+   swal({ title: "Tem certeza?", text: "Você não poderá recuperar este item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Sim, apague!", closeOnConfirm: false }, function(){window.location.href = "<?php echo SITE_URL ?>/controller/delete_workout.php?id=<?php echo $workout['workout_id']; ?>" });}
    </script>
    </div>
 
