@@ -9,19 +9,19 @@
                             <?=$csrf->input('login-token');?>
 
                             <div class="form-group">
-                                <label>USERNAME</label>
+                                <label>UTILIZADOR</label>
                                 <input class="form-control input-lg" placeholder="Username" name="manager_email" type="text" required>
                                 <div class="invalid-feedback">This field is required</div>
                             </div>
                             <div class="form-group">
-                                <label>PASSWORD</label>
+                                <label>SENHA</label>
                                 <input class="form-control input-lg" placeholder="Password" name="manager_password" type="password" required>
                                 <div class="invalid-feedback">This field is required</div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-6">
-                                    <label>ENTER CAPTCHA</label>
+                                    <label>DIGITE O CAPTCHA</label>
                                     <input type="text" class="form-control" placeholder="Enter Captcha" name="captcha" required>
                                     <div class="invalid-feedback">This field is required</div>
                                 </div>
@@ -31,7 +31,7 @@
                                 </div>
                             </div>
 
-                            <button class="btn btn-primary mt-2" type="submit" style="width: 100%">Enter</button>
+                            <button class="btn btn-primary mt-2" type="submit" style="width: 100%">Entrar</button>
 
                             <?php if( !empty($errors)): ?>
 
@@ -46,8 +46,8 @@
                         </form>
                     </div>
                     <div class="copyright-text">
-                    <span>All Rights Reserved</span><br>
-                    <span>&copy; <?php echo date("Y"); ?> Wicombit</span>
+                    <span>Desenvolvido com carinho por Pedro Viegas</span><br>
+                    <span>&copy; <?php echo date("Y"); ?> FitVeggie </span>
                     </div>
                 </div>
             </div>
