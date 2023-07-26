@@ -10,7 +10,7 @@
 
                             <div class="form-group">
                                 <label>UTILIZADOR</label>
-                                <input class="form-control input-lg" placeholder="Username" name="manager_email" type="text" required>
+                                <input class="form-control input-lg" placeholder="Utilizador" name="manager_email" type="text" required>
                                 <div class="invalid-feedback">This field is required</div>
                             </div>
                             <div class="form-group">
@@ -22,7 +22,7 @@
                             <div class="row">
                                 <div class="form-group col-6">
                                     <label>DIGITE O CAPTCHA</label>
-                                    <input type="text" class="form-control" placeholder="Enter Captcha" name="captcha" required>
+                                    <input type="text" class="form-control" placeholder="Digite Captcha" name="captcha" required>
                                     <div class="invalid-feedback">This field is required</div>
                                 </div>
                                 <div class="form-group col-6">
