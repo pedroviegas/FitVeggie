@@ -92,7 +92,7 @@
                                 <div class="graph-pills graph-home">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active active-2" href="../controller/exercises.php">View All <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
+                                        <a class="nav-link active active-2" href="../controller/exercises.php">Veja todos <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -113,7 +113,7 @@
 
                             <script type="text/javascript">
   function alertdelete_e<?php echo $exercise['exercise_id']; ?>() {
-  swal({ title: "Are you sure?", text: "You will not be able to recover this item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Yes, delete it!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_exercise.php?id=<?php echo $exercise['exercise_id']; ?>" });}
+  swal({ title: "Tem certeza?", text: "Você não poderá recuperar este item!", type: "aviso",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Sim, apague!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_exercise.php?id=<?php echo $exercise['exercise_id']; ?>" });}
   </script>
   
                             <?php endforeach; ?>
@@ -128,11 +128,11 @@
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="block table-block mb-4">
                             <div class="block-heading d-flex align-items-center" style="border:0; padding-bottom: 0;">
-                                <h5 class="text-truncate">Workouts</h5>
+                                <h5 class="text-truncate">Treinos</h5>
                                 <div class="graph-pills graph-home">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active active-2" href="../controller/workouts.php">View All <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
+                                        <a class="nav-link active active-2" href="../controller/workouts.php">Veja todos <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -153,7 +153,7 @@
 
                             <script type="text/javascript">
   function alertdelete_w<?php echo $workout['workout_id']; ?>() {
-  swal({ title: "Are you sure?", text: "You will not be able to recover this item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Yes, delete it!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_workout.php?id=<?php echo $workout['workout_id']; ?>" });}
+  swal({ title: "Tem certeza?", text: "Você não poderá recuperar este item!", type: "aviso",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Sim, apague!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_workout.php?id=<?php echo $workout['workout_id']; ?>" });}
   </script>
   
                             <?php endforeach; ?>
@@ -169,11 +169,11 @@
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="block table-block mb-4">
                             <div class="block-heading d-flex align-items-center" style="border:0; padding-bottom: 0;">
-                                <h5 class="text-truncate">Posts</h5>
+                                <h5 class="text-truncate">Postagens</h5>
                                 <div class="graph-pills graph-home">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active active-2" href="../controller/posts.php">View All <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
+                                        <a class="nav-link active active-2" href="../controller/posts.php">Veja todos <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -194,7 +194,7 @@
 
                             <script type="text/javascript">
   function alertdelete_p<?php echo $post['post_id']; ?>() {
-  swal({ title: "Are you sure?", text: "You will not be able to recover this item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Yes, delete it!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_post.php?id=<?php echo $post['post_id']; ?>" });}
+  swal({ title: "Tem certeza?", text: "Você não poderá recuperar este item!", type: "aviso",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Sim, apague!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_post.php?id=<?php echo $post['post_id']; ?>" });}
   </script>
   
                             <?php endforeach; ?>
@@ -209,11 +209,11 @@
                     <div class="col-12 col-md-6 col-lg-6">
                         <div class="block table-block mb-4">
                             <div class="block-heading d-flex align-items-center" style="border:0; padding-bottom: 0;">
-                                <h5 class="text-truncate">Recipes</h5>
+                                <h5 class="text-truncate">Reeceitas</h5>
                                 <div class="graph-pills graph-home">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active active-2" href="../controller/recipes.php">View All <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
+                                        <a class="nav-link active active-2" href="../controller/recipes.php">Veja todos <i class="fa fa-angle-right" style="margin-left: 5px"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -234,7 +234,7 @@
 
                             <script type="text/javascript">
   function alertdelete_r<?php echo $diet['diet_id']; ?>() {
-  swal({ title: "Are you sure?", text: "You will not be able to recover this item!", type: "warning",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Yes, delete it!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_diet.php?id=<?php echo $diet['diet_id']; ?>" });}
+  swal({ title: "Tem certeza?", text: "Você não poderá recuperar este item!", type: "aviso",cancelButtonClass: "btn-default btn-sm", showCancelButton: true, confirmButtonClass: "btn-danger btn-sm", confirmButtonText: "Sim, apague!", closeOnConfirm: false }, function(){window.location.href = "../controller/delete_diet.php?id=<?php echo $diet['diet_id']; ?>" });}
   </script>
   
                             <?php endforeach; ?>
