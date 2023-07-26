@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img src="../assets/images/fitveggie.png class="logo-auth">
+                    <img src="../assets/images/fitveggie.png" class="logo-auth">
                     <div class="login-div">
                        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" name="login" id="needs-validation" novalidate>  
                             <?=$csrf->input('login-token');?>
