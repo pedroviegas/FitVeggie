@@ -29,7 +29,7 @@
     'orderable': false,
     'searchable': false,
     "mRender" : function (data) {
-      return "<a class='btn btn-small btn-primary' href='../controller/edit_exercise.php?id="+data.exercise_id+"'>Edit</a> <a class='btn btn-small btn-danger btn-delete deleteItem' data-url='../controller/delete_exercise.php?id="+data.exercise_id+"'>Delete</a>";}
+      return "<a class='btn btn-small btn-primary' href='../controller/edit_exercise.php?id="+data.exercise_id+"'>Editar</a> <a class='btn btn-small btn-danger btn-delete deleteItem' data-url='../controller/delete_exercise.php?id="+data.exercise_id+"'>Eliminar</a>";}
     }
     ]
   });
@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title">
-                            <h5>Exercises</h5>
+                            <h5>Exercícios</h5>
                         </div>
                     </div>
 
@@ -61,15 +61,15 @@
     <thead>
             <tr>
                 <th>Id</th>
-                <th>Image</th>
-                <th>Title</th>
-                <th>Bodyparts</th>
-                <th>Equi.</th>
-                <th>Level</th>
-                <th>Reps</th>
-                <th>Rest</th>
-                <th>Sets</th>
-                <th>Actions</th>
+                <th>Imagem</th>
+                <th>Título</th>
+                <th>Partes do corpo</th>
+                <th>Equip.</th>
+                <th>Nível</th>
+                <th>Repetições</th>
+                <th>Descanso</th>
+                <th>Séries</th>
+                <th>Ações</th>
             </tr>
         </thead>
 
