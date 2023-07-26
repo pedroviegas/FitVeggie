@@ -1,6 +1,6 @@
 <nav id="navigation" class="navigation-sidebar bg-primary">
         <div class="navigation-header">
-        <a href="<?php echo SITE_URL ?>"><img src="../assets/images/wbdashboard.png" style="max-width: 130px;"></a>
+        <a href="<?php echo SITE_URL ?>"><img src="../assets/images/fitveggie.png" style="max-width: 130px;"></a>
     </div>
 
     <div class="welcome">
@@ -368,7 +368,7 @@
                 <div class="row">
                     <div class="col-7 col-md-6 d-lg-none">
                         <a id="toggle-navigation" href="javascript:void(0);" class="icon-btn mr-3"><i class="fa fa-bars"></i></a>
-                        <img src="../assets/images/wbdashboard-dark.png" class="logo-side-dark">
+                        <img src="../assets/images/fitveggie.png" class="logo-side-dark">
                     </div>
                     <div class="col-lg-8 d-none d-lg-block">
                         <p class="sidebar-relative">Bem vindo, <b><?php echo $user['manager_name']; ?></b> <a href="../controller/logout.php" class="sidebar-logout"><i class="dripicons-exit"></i></a></p>
