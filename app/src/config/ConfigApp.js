@@ -7,7 +7,7 @@ const isStandAloneApp = Constants.appOwnership == "standalone";
 const ConfigApp = {
 
     // backend url (with slash at end)
-    URL: "https://wicombit.com/demo/fitpro/",
+    URL: "https://academiaportuguesa.tech/backend/",
 
     DEFAULTLANG: "en",
 

@@ -4,12 +4,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "REPLACE_HERE",
-  authDomain: "REPLACE_HERE",
-  projectId: "REPLACE_HERE",
-  storageBucket: "REPLACE_HERE",
-  messagingSenderId: "REPLACE_HERE",
-  appId: "REPLACE_HERE"
+  apiKey: "AIzaSyAOI16pTFgm2gvj5vhfNovt-AkSCjyJ1Ec",
+  authDomain: "fitveggie-59da9.firebaseapp.com",
+  projectId: "fitveggie-59da9",
+  storageBucket: "fitveggie-59da9.appspot.com",
+  messagingSenderId: "642893356411",
+  appId: "1:642893356411:web:77b9a2c88d74fee8afb1de"
 };
 
 // Initialize Firebase
